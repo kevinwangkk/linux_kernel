@@ -11,3 +11,22 @@ Linux-kernel
 命令行 ： grep sed awk
 
 
+一. 系统调用
+	1. 进程管理：fork，waitpid，exec类函数
+	2. 内存管理：brk(malloc), mmap
+	3. 文件管理：open,read,write,lseek,close
+	4. 进程间通信：	消息队列 msgget,msgsnd,msgrcv;
+					共享内存 shmget, shmat;
+					信号量 sem_wait, sem_post
+					信号量集 sig*
+	5. 信号处理： kill， sigaction
+	6. 网络通信：socket, bind, connect, accept, listen
+
+
+
+
+
+
+
+
+
